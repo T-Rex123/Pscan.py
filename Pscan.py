@@ -1,7 +1,7 @@
 from socket import *
 from sys import *
 
-host = argv[1]
+host = argv[0]
 
 s = socket(AF_INET,SOCK_STREAM)
 
